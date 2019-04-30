@@ -78,11 +78,3 @@ def mark_obstacle():
         color += 100
         color = color % 255
 
-
-def find_angle(self, width, height, x1, y1, x2, y2):
-    origin_x, origin_y = int(width / 2), height
-
-    # Left Boundary
-    x, y = x1, int((y1 + y2) / 2)
-    
-
